@@ -1,4 +1,6 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
+import { Http, Response } from '@angular/http';
+import { SearchResult } from './youtube-search/search-result-model';
 
 @Component({
   selector: 'app-root',
@@ -6,5 +8,16 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'app';
+  results: SearchResult[];
+  loading: boolean;
+
+  constructor() { }
+
+  ngOnInit() { }
+
+  updateResults(results: SearchResult[]): void {
+    console.log('main app');
+    this.results = results;
+    console.log('results: ', this.results);
+  }
 }
