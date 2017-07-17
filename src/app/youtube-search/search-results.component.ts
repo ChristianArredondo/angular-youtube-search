@@ -1,5 +1,4 @@
 import { Component, OnInit, Input } from '@angular/core';
-
 import { SearchResult } from './search-result-model';
 
 
@@ -14,6 +13,7 @@ export class SearchResultsComponent implements OnInit {
 
   ngOnInit() {
         console.log('Search results');
+        console.log(this.result);
   }
 
 }
