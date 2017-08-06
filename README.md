@@ -1,6 +1,8 @@
+![alt text](https://github.com/ChristianArredondo/angular-app/blob/master/src/assets/angular-youtube-demo.gif)
+
 # HttpWithAngular
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.2.1.
+A miniscule web application that combines the YouTube API with a type-as-you-search feature. This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.2.1.
 
 ## Development server
 
