@@ -1,4 +1,4 @@
-![alt text](https://github.com/ChristianArredondo/angular-app/blob/master/src/assets/angular-youtube-demo.gif)
+![alt text](https://github.com/ChristianArredondo/angular-youtube-search/blob/master/src/assets/angular-youtube-demo.gif)
 
 # HttpWithAngular
 
